@@ -33,7 +33,7 @@
 
     var TestClass = ncmbDataStore("FetchTest");
     TestClass.fetch()
-    then(function(results){
+    .then(function(results){
 
       var data = results.get("text");
       var updata = results.get("updateData");
